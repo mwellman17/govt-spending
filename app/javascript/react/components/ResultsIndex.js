@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router';
 
 class ResultsIndex extends Component {
   constructor(props) {
@@ -32,7 +33,7 @@ class ResultsIndex extends Component {
 
     return(
       <div>
-        <h1>hello world</h1>
+        <Link to="/results/1">Christina Ho Query</Link>
       </div>
     )
   }

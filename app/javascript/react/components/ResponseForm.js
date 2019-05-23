@@ -65,7 +65,6 @@ class ResponseForm extends Component {
       })
       .then(response => response.json())
       .then(body => {
-        debugger
         console.table(body)
       })
     })
